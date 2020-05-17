@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.candyapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_candy_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Registro"></activity>
+        <activity android:name=".MenuPrincipal"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".SeccionClosets"></activity>
+        <activity android:name=".SeccionNinos"></activity>
+        <activity android:name=".Seccion_fichas_tecnicas"></activity>
+        <activity android:name=".SeccionAlmohadas"></activity>
+        <activity android:name=".SeccionColchones"></activity>
+        <activity android:name=".SplashActivity"
+                  android:theme="@style/SplashTheme">
+        <intent-filter>
+                <action   android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

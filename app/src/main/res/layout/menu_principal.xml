@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45dp"
+                android:text="Selecciona la seccion de tu interés"
+                android:textStyle="italic"
+                android:textColor="@color/colorCandyAzulOscuro"
+                android:gravity="center">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/icn_basket"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_almohada"/>
+
+                <Button
+                    android:id="@+id/btn_ver_almohadas"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="Ver Almohadas"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorCandyAzulOscuro" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/ic_soccer"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_colchon"/>
+
+                <Button
+                    android:id="@+id/btn_ver_colchones"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="Ver Colchones"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorCandyAzulOscuro" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/icn_fichas_tecnicas"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_ninos"/>
+
+                <Button
+                    android:id="@+id/btn_ver_niños"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="Ver Linea Infantil"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorCandyAzulOscuro" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/icn_closets"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_closets"/>
+
+                <Button
+                    android:id="@+id/btn_ver_closets"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="INGRESAR"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorCandyAzulOscuro" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/icn_materiales"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_ficha_tecnica"/>
+
+                <Button
+                    android:id="@+id/btn_fichas_tecnicas"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="Ver Materiales"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorCandyAzulOscuro" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

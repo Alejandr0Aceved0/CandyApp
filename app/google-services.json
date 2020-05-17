@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "180400545793",
+    "firebase_url": "https://candyapp-90c25.firebaseio.com",
+    "project_id": "candyapp-90c25",
+    "storage_bucket": "candyapp-90c25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180400545793:android:29309834437224a9cea000",
+        "android_client_info": {
+          "package_name": "com.example.candyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180400545793-eib5p94n9uslm5s4m1blp4r3bumbflvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfbnJyTvbqHHiCa5zSuSUkj6Tbh6KSNsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180400545793-eib5p94n9uslm5s4m1blp4r3bumbflvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
